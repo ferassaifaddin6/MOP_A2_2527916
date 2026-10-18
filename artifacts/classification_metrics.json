@@ -1,0 +1,96 @@
+{
+  "verification_code": "AI-A2-7916",
+  "student_id": "ug2527916@ines.ac.rw",
+  "seed": 7916,
+  "dataset": "SYNTHETIC",
+  "n_train": 194,
+  "n_test": 49,
+  "models": {
+    "majority_baseline": {
+      "cv_f1_train": 0.2621,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "confusion_matrix": [
+        [
+          25,
+          0
+        ],
+        [
+          24,
+          0
+        ]
+      ]
+    },
+    "logistic_regression": {
+      "cv_f1_train": 0.9538,
+      "precision": 0.8846,
+      "recall": 0.9583,
+      "f1": 0.92,
+      "roc_auc": 0.995,
+      "confusion_matrix": [
+        [
+          22,
+          3
+        ],
+        [
+          1,
+          23
+        ]
+      ]
+    },
+    "random_forest": {
+      "cv_f1_train": 0.913,
+      "precision": 0.8846,
+      "recall": 0.9583,
+      "f1": 0.92,
+      "roc_auc": 0.9867,
+      "confusion_matrix": [
+        [
+          22,
+          3
+        ],
+        [
+          1,
+          23
+        ]
+      ]
+    },
+    "gradient_boosting": {
+      "cv_f1_train": 0.9087,
+      "precision": 0.9583,
+      "recall": 0.9583,
+      "f1": 0.9583,
+      "roc_auc": 0.9717,
+      "confusion_matrix": [
+        [
+          24,
+          1
+        ],
+        [
+          1,
+          23
+        ]
+      ]
+    }
+  },
+  "selected_model": "logistic_regression",
+  "selection_reason": "logistic_regression has the highest 5-fold cross-validated F1 on the training set (0.9538); positive class = high_risk (1).",
+  "confusion_matrix_labels": "rows=actual [0,1], columns=predicted [0,1]",
+  "most_confident_error_example": {
+    "row_id": 105,
+    "actual": 1,
+    "predicted": 0,
+    "probability_high_risk": 0.3847,
+    "features": {
+      "rainfall_mm": 634.6704,
+      "avg_temp_c": 12.9416,
+      "soil_moisture_pct": NaN,
+      "fertilizer_kg": 169.2482,
+      "field_size_ha": 1.8029,
+      "season": "A",
+      "cooperative_support": 0
+    }
+  }
+}

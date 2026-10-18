@@ -1,0 +1,16 @@
+{
+  "verification_code": "AI-A2-7916",
+  "student_id": "ug2527916@ines.ac.rw",
+  "seed": 7916,
+  "dataset": "SYNTHETIC",
+  "n_train": 194,
+  "n_test": 49,
+  "rows_raw": 246,
+  "missing_values": {
+    "soil_moisture_pct": 12,
+    "fertilizer_kg": 12
+  },
+  "duplicate_rows": 3,
+  "rows_after_cleaning": 243,
+  "duplicates_removed": 3
+}

@@ -1,0 +1,95 @@
+{
+  "verification_code": "AI-A2-7916",
+  "student_id": "ug2527916@ines.ac.rw",
+  "seed": 7916,
+  "dataset": "SYNTHETIC",
+  "n_train": 194,
+  "n_test": 49,
+  "silhouette_by_k": {
+    "2": 0.137,
+    "3": 0.1355,
+    "4": 0.1504,
+    "5": 0.1563,
+    "6": 0.1541
+  },
+  "selected_k": 5,
+  "selection_reason": "K=5 has the highest silhouette score (0.1563).",
+  "profiles": {
+    "cluster_0": {
+      "size": 41,
+      "feature_means": {
+        "rainfall_mm": 922.6323,
+        "avg_temp_c": 18.9122,
+        "soil_moisture_pct": 35.0129,
+        "fertilizer_kg": 169.6452,
+        "field_size_ha": 3.1442
+      },
+      "share_season_A": 0.3659,
+      "share_cooperative_support": 0.4634,
+      "post_hoc_mean_yield_tons": 13.0963,
+      "post_hoc_high_risk_rate": 0.9024,
+      "plain_language_profile": "Farms with low soil_moisture_pct, high fertilizer_kg, high field_size_ha, mostly season B, mostly without cooperative support."
+    },
+    "cluster_1": {
+      "size": 40,
+      "feature_means": {
+        "rainfall_mm": 1086.5264,
+        "avg_temp_c": 22.0967,
+        "soil_moisture_pct": 33.0049,
+        "fertilizer_kg": 112.6249,
+        "field_size_ha": 1.148
+      },
+      "share_season_A": 0.4,
+      "share_cooperative_support": 0.5,
+      "post_hoc_mean_yield_tons": 9.4094,
+      "post_hoc_high_risk_rate": 0.25,
+      "plain_language_profile": "Farms with high avg_temp_c, low soil_moisture_pct, low field_size_ha, mostly season B, mostly supported by the cooperative."
+    },
+    "cluster_2": {
+      "size": 37,
+      "feature_means": {
+        "rainfall_mm": 1012.752,
+        "avg_temp_c": 23.2768,
+        "soil_moisture_pct": 66.2673,
+        "fertilizer_kg": 149.2771,
+        "field_size_ha": 2.5724
+      },
+      "share_season_A": 0.6486,
+      "share_cooperative_support": 0.2432,
+      "post_hoc_mean_yield_tons": 13.1448,
+      "post_hoc_high_risk_rate": 0.5676,
+      "plain_language_profile": "Farms with high avg_temp_c, high soil_moisture_pct, high field_size_ha, mostly season A, mostly without cooperative support."
+    },
+    "cluster_3": {
+      "size": 39,
+      "feature_means": {
+        "rainfall_mm": 775.224,
+        "avg_temp_c": 16.7438,
+        "soil_moisture_pct": 53.605,
+        "fertilizer_kg": 73.3392,
+        "field_size_ha": 1.7215
+      },
+      "share_season_A": 0.2308,
+      "share_cooperative_support": 0.5128,
+      "post_hoc_mean_yield_tons": 9.7542,
+      "post_hoc_high_risk_rate": 0.4872,
+      "plain_language_profile": "Farms with low rainfall_mm, low avg_temp_c, low fertilizer_kg, mostly season B, mostly supported by the cooperative."
+    },
+    "cluster_4": {
+      "size": 37,
+      "feature_means": {
+        "rainfall_mm": 1263.5394,
+        "avg_temp_c": 15.2775,
+        "soil_moisture_pct": 56.9393,
+        "fertilizer_kg": 130.5508,
+        "field_size_ha": 1.8761
+      },
+      "share_season_A": 0.2162,
+      "share_cooperative_support": 0.6216,
+      "post_hoc_mean_yield_tons": 13.5058,
+      "post_hoc_high_risk_rate": 0.2703,
+      "plain_language_profile": "Farms with high rainfall_mm, low avg_temp_c, high soil_moisture_pct, mostly season B, mostly supported by the cooperative."
+    }
+  },
+  "interpretation": "Clusters are fitted on scaled inputs only; yield and risk are shown post hoc. Because inputs are independently simulated, silhouette values are low and clusters are loose groupings, not natural farm types."
+}

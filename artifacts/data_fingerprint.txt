@@ -1,0 +1,4 @@
+sha256: 571b39ec937c1cd244f9c7678156bdc80c39287e96cf57a29925a4f9ea136795
+file: AI_A2_2527916.csv
+rows: 246
+verification_code: AI-A2-7916

@@ -1,0 +1,10 @@
+
+{
+  "rainfall_mm": 800,
+  "avg_temp_c": 24,
+  "soil_moisture_pct": 60,
+  "fertilizer_kg": 50,
+  "field_size_ha": 2,
+  "season": "rainy",
+  "cooperative_support": true
+}

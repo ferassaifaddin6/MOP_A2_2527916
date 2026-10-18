@@ -1,0 +1,50 @@
+{
+  "verification_code": "AI-A2-7916",
+  "student_id": "ug2527916@ines.ac.rw",
+  "seed": 7916,
+  "dataset": "SYNTHETIC",
+  "n_train": 194,
+  "n_test": 49,
+  "models": {
+    "mean_baseline": {
+      "cv_rmse_train": 2.7238,
+      "MAE": 2.0363,
+      "RMSE": 2.3865,
+      "R2": -0.0001
+    },
+    "linear_regression": {
+      "cv_rmse_train": 0.9835,
+      "MAE": 0.8108,
+      "RMSE": 1.056,
+      "R2": 0.8042
+    },
+    "random_forest": {
+      "cv_rmse_train": 1.3942,
+      "MAE": 1.1129,
+      "RMSE": 1.3987,
+      "R2": 0.6565
+    },
+    "gradient_boosting": {
+      "cv_rmse_train": 1.254,
+      "MAE": 0.9492,
+      "RMSE": 1.1683,
+      "R2": 0.7603
+    }
+  },
+  "selected_model": "linear_regression",
+  "selection_reason": "linear_regression has the lowest 5-fold cross-validated RMSE on the training set (0.9835); test metrics were not used for selection.",
+  "largest_error_example": {
+    "row_id": 105,
+    "actual": 7.4992,
+    "predicted": 11.2756,
+    "features": {
+      "rainfall_mm": 634.6704,
+      "avg_temp_c": 12.9416,
+      "soil_moisture_pct": NaN,
+      "fertilizer_kg": 169.2482,
+      "field_size_ha": 1.8029,
+      "season": "A",
+      "cooperative_support": 0
+    }
+  }
+}
