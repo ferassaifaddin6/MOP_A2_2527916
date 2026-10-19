@@ -4,11 +4,11 @@
 
 | Field | Value |
 |---|---|
-| Full name | `<YOUR FULL NAME>` |
+| Full name | `<Feras saifaddin ismail mohammed>` |
 | Registration number | 25/27916 |
 | Institutional username | ug2527916@ines.ac.rw |
 | Verification code | AI-A2-7916 |
-| Repository URL / final commit hash | `<fill in>` / `<fill in>` |
+| Repository URL / final commit hash | `https://github.com/ferassaifaddin6/MOP_A2_2527916.git` /  |91ae4374c87e022596e57f8213ace9bdddeb5888
 
 ## Problem
 A Musanze potato cooperative needs to (1) estimate harvest tons, (2) flag high-risk farms
